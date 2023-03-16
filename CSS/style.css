@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --emilys-font: 'Emilys Candy', cursive;
+    --inter-font: 'Inter', sans-serif;
+    --color1: #ffc700;
+    --color2: #ffffffb3;
+    --color3: #000000;
+}
+
+body {
+    background-image: url(../img/background-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+    width: 715px;
+    height: 330px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+h3 {
+    font-family: var(--inter-font);
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+}
+
+span {
+    color: var(--color1);
+}
+
+h1 {
+    font-family: var(--emilys-font);
+    font-size: 4rem;
+    color: var(--color1);
+    text-align: center;
+    font-weight: 400;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+p {
+    font-family: var(--inter-font);
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: var(--color2);
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    padding: 12px 32px;
+    font-family: var(--inter-font);
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--color2);
+}
+
+#play-btn {
+    text-decoration: none;
+    border: 1px solid var(--color3);
+    border-radius: 8px;
+    background-color: var(--color1);
+    color: var(--color3);
+}
